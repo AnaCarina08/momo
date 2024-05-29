@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro para ser meu namorado</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <header id="header">
+            <img src="e0098b1c-9ed4-4e7b-a52e-9ed237-unscreen.gif" alt="Header Image" id="header-img">
+        </header>
+
+        <form id="name-form">
+            <label for="name">Digite seu nome:</label>
+            <input  class="caixa"  type="text" id="name" name="name" required>
+            <button type="submit">Enviar</button>
+        </form>
+
+        <div id="question-container" style="display: none;">
+            <div id="question1" class="question">
+                <p>Tem certeza da sua decisão?</p>
+                <img src="db8c8703-2907-437c-b478-11af0f090190-removebg-preview.png" alt="Imagem Pergunta 1">
+                <button onclick="nextQuestion(1)">Sim</button>
+            </div>
+            <div id="question2" class="question" style="display: none;">
+                <p>Você tem certeza mesmo?</p>
+                <img src="blush_cat-removebg-preview.png" alt="Imagem Pergunta 2">
+                <button onclick="nextQuestion(2)">Sim</button>
+            </div>
+            <div id="question3" class="question" style="display: none;">
+                <p>Absoluta?</p>
+                <img src="Cat-removebg-preview.png" alt="Imagem Pergunta 3">
+                <button onclick="nextQuestion(3)">Sim</button>
+            </div>
+        </div>
+
+        <div id="success-message" style="display: none;">
+            <h1>Parabéns, agora você é meu namorado para sempre!</h1>
+            <img src="fa33744f-9116-4f06-9262-20f73ba5b5ee-removebg-preview.png" alt="Imagem de Sucesso">
+            <h2>Regras</h2>
+            <div class="rule">
+                <p>Nunca Nunca JAMAIS deixar de ser meu de maneira alguma</p>
+                <img src="a4c32b8b-46d4-4e7e-ae54-fa80331031c4-removebg-preview.png" alt="Imagem Regra 1" width="50px">
+            </div>
+            <div class="rule">
+                <p>Deixar eu colocar um rastreador em você (é para seu bem)</p>
+                <img src="cd16d1176b775d4d836b5cde5cb875a8-removebg-preview (1).png" alt="Imagem Regra 2">
+            </div>
+            <div class="rule">
+                <p>Não falar com outras pessoas (você só precisa de mim)</p>
+                <img src="download.png" alt="Imagem Regra 3">
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

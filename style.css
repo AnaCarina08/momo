@@ -1,0 +1,94 @@
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    justify-content: center;
+}
+
+#container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+header img {
+    width: 70%;  /* Reduzido para 70% */
+    height: auto;
+}
+
+form, .question, #success-message {
+    background-color: #ff69b4;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px auto;
+    width: 80%; /* Aumentado para 80% */
+    max-width: 600px;
+    text-align: center;
+}
+
+form label, form input, form button {
+    display: block;
+    margin: 10px auto;
+}
+
+form input {
+    padding: 15px;
+    width: 80%; /* Aumentado para 80% */
+    font-size: 1.2em;
+    border: none;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 15px;
+    width: 50%; /* Aumentado para 50% */
+    font-size: 1.2em;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff1493;
+    color: #fff;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #ff69b4;
+}
+
+.question img {
+    width: 150px; /* Aumentado para 150px */
+    height: auto;
+    margin: 10px 0;
+}
+
+.rule img {
+    width: 150px; /* Aumentado para 150px */
+    height: auto;
+    margin: 10px 0;
+}
+
+.question button, .rule button {
+    padding: 15px;
+    width: 50%;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff1493;
+    color: #fff;
+    cursor: pointer;
+}
+
+.question button:hover, .rule button:hover {
+    background-color: #ff69b4;
+}
+.caixa{
+  padding: 10px;
+  font-size: 16px;
+}
